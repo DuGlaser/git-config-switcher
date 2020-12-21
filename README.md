@@ -5,7 +5,7 @@ Tools to easily switch ``git config``
 ## Install
 
 ```bash
-$ go get https://github.com/DuGlaser/git-config-switcher
+$ go get github.com/DuGlaser/git-config-switcher
 ```
 
 ## Usage
