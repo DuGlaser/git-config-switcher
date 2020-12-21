@@ -21,11 +21,9 @@ type configs struct {
 }
 
 type user struct {
-	Name  string `toml:"name"`
-	Email string `toml:"email"`
+	Name  string
+	Email string
 }
-
-const FILE_PATH = "./test.toml"
 
 func pos(value string, slice []string) int {
 	for p, v := range slice {
