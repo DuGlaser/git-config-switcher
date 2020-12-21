@@ -1,6 +1,6 @@
 # git-config-switcher
 
-Tools to easily switch ``git config``
+A tool to easily switch ``git config``
 
 ## Install
 
