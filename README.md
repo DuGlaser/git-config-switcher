@@ -2,6 +2,11 @@
 
 A tool to easily switch ``git config``
 
+## Demo
+
+[![asciicast](https://asciinema.org/a/ogZDrtqdil8l3NOrJGWD9PN4y.svg)](https://asciinema.org/a/ogZDrtqdil8l3NOrJGWD9PN4y)   
+
+
 ## Install
 
 ```bash
