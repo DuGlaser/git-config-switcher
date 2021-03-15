@@ -4,8 +4,7 @@ A tool to easily switch ``git config``
 
 ## Demo
 
-[![asciicast](https://asciinema.org/a/ogZDrtqdil8l3NOrJGWD9PN4y.svg)](https://asciinema.org/a/ogZDrtqdil8l3NOrJGWD9PN4y)   
-
+https://user-images.githubusercontent.com/50506482/111166382-6431fc80-85e3-11eb-999a-8ba85dc8e48b.mp4
 
 ## Install
 
@@ -24,4 +23,4 @@ git-config-switcher/
 ```
 2. Run ``git-config-switch``  
 
-![SS](https://user-images.githubusercontent.com/50506482/102792288-a506e480-43eb-11eb-9403-2b1ead54dfae.png)
+![SS](https://user-images.githubusercontent.com/50506482/111152901-a1db5900-85d4-11eb-80ff-43709e82da06.png)
