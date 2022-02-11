@@ -9,7 +9,7 @@ https://user-images.githubusercontent.com/50506482/111166382-6431fc80-85e3-11eb-
 ## Install
 
 ```bash
-$ go get github.com/DuGlaser/git-config-switcher
+$ go install github.com/DuGlaser/git-config-switcher
 ```
 
 ## Usage
