@@ -24,9 +24,13 @@ func cmd(c string) {
 }
 
 func main() {
-	home := os.Getenv("HOME")
-	configDir := filepath.Join(home, ".config", "git-config-switcher")
-	files, err := ioutil.ReadDir(configDir)
+	config, err := os.UserConfigDir()
+	if err != nil {
+		fmt.Fprintln(os.Stderr, "Error:", err)
+		os.Exit(1)
+	}
+	dir := filepath.Join(config, "git-config-switcher")
+	files, err := ioutil.ReadDir(dir)
 
 	var items []string
 	for _, f := range files {
@@ -40,9 +44,9 @@ func main() {
 
 	_, result, err := prompt.Run()
 	if err != nil {
-		fmt.Println(err)
-		return
+		fmt.Fprintln(os.Stderr, "Error:", err)
+		os.Exit(1)
 	}
 
-	cmd(fmt.Sprintf("git config include.path \"%s\"", filepath.Join(configDir, result)))
+	cmd(fmt.Sprintf("git config include.path \"%s\"", filepath.Join(dir, result)))
 }
